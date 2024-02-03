@@ -5,7 +5,7 @@
 
 body {
     margin: 0;
-    background-color: #177E89;
+    background-color: #fff;
 }
 
 #content {
@@ -15,11 +15,10 @@ body {
 
 header {
     background-color: #177E89;
-
 }
 
 #logo {
-    width: 100px;
+    width: 80px;
     margin-top: 40px;
 }
 
@@ -30,10 +29,49 @@ nav {
     justify-content: center;
     margin-top: 30px;
 }
+nav a{
+    color: #fcfbfb;
+    text-decoration: none;
+}
 nav a:hover {
-    background-color: #fff;
+    background-color: #002500;
+}
+
+.book {
+    background-color: #177E89;
+    color: #fff;
+}
+.book:hover {
+    background-color: #E1B07E;
 }
 
 #background {
     height: 725px;
+    background-color: #177E89;
+}
+
+.msg {
+    background-color: #002500;
+    color: #fff;
+}
+.msg a:hover {
+    color: #fff;
+}
+
+.join {
+    background-color: #E1B07E;
+}
+
+footer {
+    background-color: #002500;
+}
+
+footer p {
+    font-size: 1.2em;
+    color: #fff;
+}
+
+footer p a:hover {
+    color: #fff;
+    text-decoration: underline;
 }
