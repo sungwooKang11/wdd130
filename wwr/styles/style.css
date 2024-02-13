@@ -3,10 +3,30 @@
   --accent1-color: #E1B07E;
 */
 @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Gabarito:wght@400..900&display=swap');
+:root {
+    --primary-color: #177E89   ;
+    --secondary-color: #002500 ;
+    --accent1-color: #E1B07E;
+
+    --heading-font: Gabarito;
+    --paragraph-font: asap, sans-serif;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+}
+p, a {
+    font-family: var(--paragraph-font);
+}
 
 body {
     margin: 0;
-    background-color: #fff;
+    padding: 0;
+    font-size:22px;
+    background-color: #abd1d6;
+}
+h2 {
+    margin: 0;
 }
 
 #content {
@@ -16,11 +36,12 @@ body {
 
 header {
     background-color: #177E89;
+    height: 180px;
 }
 
 #logo {
     width: 80px;
-    margin-top: 40px;
+    padding-top: 5px;
 }
 
 #hero-img {
@@ -29,6 +50,7 @@ header {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 nav {
@@ -36,25 +58,45 @@ nav {
     height: 30px;
     display: flex;
     justify-content: center;
-    margin-top: 30px;
 }
 nav a{
     color: #fcfbfb;
     text-decoration: none;
-    padding-inline: 10px;
+    padding: 35px;
     border-radius: 5px;
 }
 nav a:hover {
     background-color: #E1B07E;
 }
 
+.home-title {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+#hero-img {
+    box-sizing: border-box;
+}
+
+.msg {
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg p {
+    padding-bottom: 15px;
+}
+
 .book {
     background-color: #177E89;
     color: #fff;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover {
     background-color: #E1B07E;
+    color: var(--secondary-color);
 }
 
 #background {
@@ -67,10 +109,21 @@ nav a:hover {
     color: #fff;
 }
 
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid var(--secondary-color);
+    
+}
+
 .join {
     background-color: #E1B07E;
     color: #fff;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join:hover {
     color: #177E89;
@@ -79,6 +132,8 @@ nav a:hover {
 footer {
     background-color: #002500;
     text-align: left;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p {
@@ -92,4 +147,8 @@ footer p a {
 footer p a:hover {
     color: #fff;
     text-decoration: underline;
+}
+
+.social img {
+    padding-top: 15px;
 }
