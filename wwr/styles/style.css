@@ -24,6 +24,8 @@ body {
     padding: 0;
     font-size:22px;
     background-color: #abd1d6;
+    display: flex;
+    justify-content: center;
 }
 h2 {
     margin: 0;
