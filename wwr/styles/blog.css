@@ -68,6 +68,10 @@ nav a:hover {
     color: var(--secondary-color);
 }
 
+.subtitle {
+    margin-top: 100px;
+}
+
 .main {
     max-width: 1400px;
     height: auto;
